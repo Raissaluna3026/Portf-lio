@@ -21,7 +21,7 @@
   --big-font-size: 3.5rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
-  --h3-font-size:1.12rem;
+  --h3-font-size: 1.12rem;
   --normal-font-size:1rem;
   --small-font-size:0.875rem;
   --smaller-font-size:0.813rem;
@@ -54,7 +54,7 @@
     --big-font-size: 2.75;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
-    --h3-font-size:1rem;
+    --h3-font-size: 1rem;
     --normal-font-size: 0.938rem;
     --small-font-size:0.813rem;
     --smaller-font-size: 0.75rem;
@@ -154,15 +154,28 @@
       margin-left: var(--mb-1-5);
       margin-right: var(--mb-1-5);
     }
+    .button{
+      padding: 1rem 1.75rem;
+    }
+    .button__icon{
+      width: 22px;
+      height: 22px;
+    }
   }
   /*para média escala*/
   @media screen and (max-width: 768px){
-
+    .section{
+      padding: 2rem 0 4rem;
+    }
   }
   /*para baixa escala*/
   @media screen and (max-width: 350px){
+    :root{
+      --big-font-size: 2.25rem;
+    }
     .container{
       margin-left: var(--mb-1);
       margin-right: var(--mb-1);
     }
+
   }
