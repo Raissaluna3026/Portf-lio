@@ -55,7 +55,7 @@ const Data = () => {
             </svg>
         </h1>
         <h3 className="home__subtitle">Visual Designer</h3>
-            <p className="home__description">Apenas testando pra ver se fica legal dev blabaslbalb desenvolvedora balbalbal</p>
+            <p className="home__description">Apenas testando pra ver se fica legal dev blabaslbalb desenvolvedora balbalbal como sou feliz haha amo codar happy happy</p>
         <a href="#contact" className="button button--flex">
             manda oizin
             <svg

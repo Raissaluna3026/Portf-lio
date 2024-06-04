@@ -150,6 +150,9 @@
   /*breakpoints*/
   /*para larga escala*/
   @media screen and (max-width: 992px){
+    :root{
+      --big-font-size: 2.25rem;
+    }
     .container{
       margin-left: var(--mb-1-5);
       margin-right: var(--mb-1-5);
@@ -164,9 +167,14 @@
   }
   /*para média escala*/
   @media screen and (max-width: 768px){
+    :root{
+      --big-font-size: 2.25rem;
+    }
     .section{
       padding: 2rem 0 4rem;
     }
+
+    
   }
   /*para baixa escala*/
   @media screen and (max-width: 350px){
