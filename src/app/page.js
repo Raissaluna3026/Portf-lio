@@ -3,6 +3,7 @@ import "../app/globals.css";
 import Header from "../components/header/Header";
 import Homme from "@//home/Homme";
 import About from "@//about/About";
+import Skills from "@//skills/Skills";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
     <main className="main">
       <Homme/>
       <About />
+      <Skills/>
     </main>
     
   </>
